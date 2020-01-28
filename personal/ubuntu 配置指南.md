@@ -36,7 +36,7 @@ sudo apt install gnome-tweak-tool
 - 实用桌面工具安装：[https://extensions.gnome.org/](https://extensions.gnome.org/)
     - System-monitor：任务栏显示实时网速，cpu、gpu、内存占用等
     - Toplcons plus：任务栏显示程序小图标（可解决deepin-wine微信托盘不显示的问题）
-    - Gsconnect：Ubuntu连接手机，共享通知、文件，幻灯片播放控制等
+    - Gsconnect：Ubuntu连接手机（Android系统），共享通知、文件，幻灯片播放控制等
 ### goldendict
 linux下强大的查词、翻译软件，定制性高
 ```
