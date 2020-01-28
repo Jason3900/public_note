@@ -1,4 +1,8 @@
 ## ubuntu常用软件
+### vim8.2
+apt源的vim是8.0版，没有python等语言支持，因此需要卸载后自己从源码编译新版，添加相应的功能。
+- vim编译指南：[https://github.com/ycm-core/YouCompleteMe/wiki/Building-Vim-from-source](https://github.com/ycm-core/YouCompleteMe/wiki/Building-Vim-from-source)
+- vim配置指南：[https://www.bilibili.com/video/av55498503?from=search&seid=3054640709418884277](https://www.bilibili.com/video/av55498503?from=search&seid=3054640709418884277)
 ### tlp
 linux电源管理、硬件监控
 ```
@@ -8,13 +12,26 @@ sudo apt install tlp -y
 ```
 - 官方配置指南：[https://linrunner.de/en/tlp/docs/tlp-configuration.html](https://linrunner.de/en/tlp/docs/tlp-configuration.html)
 ### unar
-命令行解压工具，用以解决zip直接解压后可能造成的文件名乱码等问题
+命令行解压工具，用以解决zip解压后可能造成的文件名乱码等问题
 ```
 sudo  apt install unar
 ```
-### vim8.2
-apt源的vim是8.0版，没有python等语言支持，因此需要卸载后自己从源码编译新版，添加相应的功能。
-- vim编译指南：[https://github.com/ycm-core/YouCompleteMe/wiki/Building-Vim-from-source](https://github.com/ycm-core/YouCompleteMe/wiki/Building-Vim-from-source)
+### zsh & oh-my-zsh
+终端优化
+```
+sudo apt install zsh -y
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+- zsh常用插件：[https://github.com/zsh-users](https://github.com/zsh-users)
+    - zsh-autosuggestions
+    - zsh-syntax-highlighting
+### youtube-dl
+网络视频下载
+```
+sudo apt install python3-pip
+pip3 install youtube-dl
+```
+
 ### albert
 类似mac下的spotlight，搜索用
 ```
