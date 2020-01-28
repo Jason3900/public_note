@@ -1,4 +1,5 @@
-## ubuntu常用软件
+# Ubuntu简易配置指南
+## 命令行实用工具
 ### vim8.2
 apt源的vim是8.0版，没有python等语言支持，因此需要卸载后自己从源码编译新版，添加相应的功能。
 - vim编译指南：[https://github.com/ycm-core/YouCompleteMe/wiki/Building-Vim-from-source](https://github.com/ycm-core/YouCompleteMe/wiki/Building-Vim-from-source)
@@ -32,7 +33,18 @@ chsh -s /usr/bin/zsh # 修改默认shell为zsh
 sudo apt install python3-pip
 pip3 install youtube-dl
 ```
+### v2ray
+访问google、youtube等
+```
+sudo -i # 进入超级管理员模式
+bash <(curl -L -s https://install.direct/go.sh) # 下载并安装一键安装脚本
+vim /etc/v2ray/config.json # 修改v2ray配置
+service v2ray start # 启动v2ray服务
+service v2ray status # 查看v2ray是否成功启用
+```
+- v2ray配置指南：[https://toutyrater.github.io/](https://toutyrater.github.io/)
 
+## GUI界面常用工具
 ### albert
 类似mac下的spotlight，搜索用
 ```
@@ -78,13 +90,3 @@ PDF阅读器
 
 
 
-### v2ray
-访问google、youtube等
-```
-sudo -i # 进入超级管理员模式
-bash <(curl -L -s https://install.direct/go.sh) # 下载并安装一键安装脚本
-vim /etc/v2ray/config.json # 修改v2ray配置
-service v2ray start # 启动v2ray服务
-service v2ray status # 查看v2ray是否成功启用
-```
-- v2ray配置指南：[https://toutyrater.github.io/](https://toutyrater.github.io/)
