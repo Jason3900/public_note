@@ -3,13 +3,23 @@
 linux电源管理、硬件监控
 ```
 sudo add-apt-repository ppa:linrunner/tlp
+sudo apt update
 sudo apt install tlp -y
 ```
 - 官方配置指南：[https://linrunner.de/en/tlp/docs/tlp-configuration.html](https://linrunner.de/en/tlp/docs/tlp-configuration.html)
+### unar
+命令行解压工具，用以解决zip直接解压后可能造成的文件名乱码等问题
+```
+sudo  apt install unar
+```
+### vim8.2
+apt源的vim是8.0版，没有python等语言支持，因此需要卸载后自己从源码编译新版，添加相应的功能。
+- vim编译指南：[https://github.com/ycm-core/YouCompleteMe/wiki/Building-Vim-from-source](https://github.com/ycm-core/YouCompleteMe/wiki/Building-Vim-from-source)
 ### albert
 类似mac下的spotlight，搜索用
 ```
 sudo add-apt-repository ppa:noobslab/macbuntu
+sudo apt update
 sudo apt install albert -y
 ```
 ### insync
@@ -48,9 +58,7 @@ sudo apt install goldendict -y
 PDF阅读器
 - 下载地址：[https://www.foxitsoftware.com/pdf-reader/](https://www.foxitsoftware.com/pdf-reader/)
 
-### vim8.2
-apt源的vim是8.0版，没有python等语言支持，因此需要卸载后自己从源码编译新版，添加相应的功能。
-- vim编译指南：[https://github.com/ycm-core/YouCompleteMe/wiki/Building-Vim-from-source](https://github.com/ycm-core/YouCompleteMe/wiki/Building-Vim-from-source)
+
 
 ### v2ray
 访问google、youtube等
