@@ -54,7 +54,7 @@ sudo apt install albert -y
 ```
 ### Remakable
 markdown编辑器
-下载地址：[https://remarkableapp.github.io/linux/download.html](https://remarkableapp.github.io/linux/download.html)
+- 下载地址：[https://remarkableapp.github.io/linux/download.html](https://remarkableapp.github.io/linux/download.html)
 ### insync
 跨平台云盘同步工具，支持onedrive与google drive
 - 下载地址：[https://www.insynchq.com/](https://www.insynchq.com/)
