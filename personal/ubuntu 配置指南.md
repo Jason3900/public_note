@@ -61,3 +61,4 @@ vim /etc/v2ray/config.json # 修改v2ray配置
 service v2ray start # 启动v2ray服务
 service v2ray status # 查看v2ray是否成功启用
 ```
+- v2ray配置指南：[https://toutyrater.github.io/](https://toutyrater.github.io/)
