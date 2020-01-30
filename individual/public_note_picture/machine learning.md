@@ -1,0 +1,3 @@
+- Machine Learning ≈ Looking for a function from data
+- Framework
+    - a set of function
